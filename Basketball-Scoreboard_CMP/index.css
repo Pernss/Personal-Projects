@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    border-radius: 15px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    background-color: #000;
+    color: #fff;
+    border: 4px solid #fff;
+}
+
+.timebox {
+    margin-top: 1rem;
+    height: 50px;
+    width: 125px;
+    border: 2px solid black;
+    font-size: 2rem;
+    padding-top: 8px;  
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: yellow;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+    
+}
+
+.homeBox-score, .guestBox-score {
+    text-align: center;
+    margin-top: 2rem;
+    width: 33.33%;
+}
+
+.score {
+    background-color: #000;
+    color: #fff;
+    height: 80px;
+    border: 2px solid white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: red;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homeBox-score > h2, .guestBox-score > h2 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.foul-box {
+    height: 30px;
+    width: 40px;
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    padding-top: 5px;
+    color: #00ff00;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.quarter-box {
+    font-size: 1rem;
+    width: 80px;
+    border: 2px solid #fff;
+    margin: 2rem auto 0;
+    text-align: center;
+    height: 40px;
+    padding-top: 0.5rem;
+    padding-right: 6px;
+}
+
+
